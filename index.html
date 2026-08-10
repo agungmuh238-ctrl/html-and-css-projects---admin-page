@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Admin Panel</h2>
+
+        <ul>
+          <li class="active">
+            <i class="fa-solid fa-house"></i>
+            Dashboard
+          </li>
+
+          <li>
+            <i class="fa-solid fa-users"></i>
+            Users
+          </li>
+
+          <li>
+            <i class="fa-solid fa-graduation-cap"></i>
+            Students
+          </li>
+
+          <li>
+            <i class="fa-solid fa-file"></i>
+            Reports
+          </li>
+
+          <li>
+            <i class="fa-solid fa-gear"></i>
+            Settings
+          </li>
+
+          <li>
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Logout
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Main -->
+      <main class="main">
+        <!-- Header -->
+        <header>
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+          </div>
+
+          <div class="profile">
+            <i class="fa-regular fa-bell"></i>
+
+            <img src="#" alt="agung" />
+          </div>
+        </header>
+
+        <!-- Cards -->
+
+        <section class="cards">
+          <div class="card">
+            <h3>Total Users</h3>
+            <h1>320</h1>
+          </div>
+
+          <div class="card">
+            <h3>Students</h3>
+            <h1>210</h1>
+          </div>
+
+          <div class="card">
+            <h3>Teachers</h3>
+            <h1>30</h1>
+          </div>
+
+          <div class="card">
+            <h3>Reports</h3>
+            <h1>65</h1>
+          </div>
+        </section>
+
+        <!-- Table -->
+
+        <section class="table-section">
+          <div class="table-header">
+            <h2>Recent Activity</h2>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td><span class="success">Completed</span></td>
+                <td>27 Jul 2026</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Sarah</td>
+                <td><span class="pending">Pending</span></td>
+                <td>26 Jul 2026</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Michael</td>
+                <td><span class="success">Completed</span></td>
+                <td>25 Jul 2026</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
